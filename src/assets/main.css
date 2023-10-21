@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  @apply bg-gray-950 bg-gradient-to-br from-gray-950 via-gray-800/20 to-violet-900/20;
+}
